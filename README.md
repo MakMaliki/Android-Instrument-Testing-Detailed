@@ -31,22 +31,13 @@ Android Instrumentation tests are automated tests that allow developers to test 
 Comprehensive testing: Android Instrumentation tests provide comprehensive testing of an app's functionality. These tests can be used to validate UI flows, user input, and output, and API interactions.
 Example: A developer can use an Android Instrumentation test to validate that when the user enters their credentials, the app authenticates the user, and the correct screen is displayed.
 
-Faster feedback: Android Instrumentation tests can provide faster feedback to developers than manual testing. These tests can be executed on multiple devices or emulators in parallel, which can reduce testing time.
-Example: A developer can run an Android Instrumentation test on multiple devices in parallel to validate that the app works correctly on all supported devices.
-
-Increased confidence: Android Instrumentation tests can increase confidence in an app's quality. These tests can be used to catch bugs and regressions before the app is released to production.
-Example: A developer can use an Android Instrumentation test to validate that a bug fix did not introduce new issues.
-
-Integration testing: Android Instrumentation tests can be used to validate that an app integrates correctly with other components or services.
-Example: A developer can use an Android Instrumentation test to validate that when the app interacts with a backend service, the correct data is displayed in the app.
-
-Debugging: Android Instrumentation tests can be used to debug issues that occur only on specific devices or emulators.
-Example: A developer can use an Android Instrumentation test to debug an issue that occurs only on a specific device by running the test on that device and examining the test output.
-
-In summary, Android Instrumentation tests provide comprehensive testing, faster feedback, increased confidence, integration testing, and debugging benefits to app developers.
-
-
 Early bug detection: Android instrument tests can help detect bugs early in the development cycle. By running automated tests on every code change, developers can quickly identify and fix bugs before they become more complex and difficult to fix.
 
 Continuous Integration: Instrumentation tests can be easily integrated into a continuous integration (CI) pipeline, allowing for automated testing with each code change. This helps to catch any bugs or errors early in the development cycle, reducing the time and effort required for debugging.
 
+Integration testing: Android Instrumentation tests can be used to validate that an app integrates correctly with other components or services.
+Example: A developer can use an Android Instrumentation test to validate that when the app interacts with a backend service, the correct data is displayed in the app.
+
+
+Faster feedback: Android Instrumentation tests can provide faster feedback to developers than manual testing. These tests can be executed on multiple devices or emulators in parallel, which can reduce testing time.
+Example: A developer can run an Android Instrumentation test on multiple devices in parallel to validate that the app works correctly on all supported devices.
