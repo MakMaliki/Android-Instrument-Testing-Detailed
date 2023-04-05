@@ -21,3 +21,5 @@ public class ExampleInstrumentedTest {
         assertEquals("com.example.myapp", appContext.getPackageName());
     }
 }
+
+In this example, we're testing that the context returned by InstrumentationRegistry matches the package name of our app. We're using the AndroidJUnit4 runner to run our test. You can run this test by right-clicking on the class in Android Studio and selecting "Run 'ExampleInstrumentedTest'".
